@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimationJS Tests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+    <style>#sectioncontent {
+        position: relative;
+      }
+      #mycontent {
+        position: relative;
+        padding: 1rem 2rem;
+        z-index: 10;
+      }
+      #mycontent2 {
+        display: none;
+        position: relative;
+        padding: 1rem 2rem;
+        z-index: 10;
+        opacity: 0;
+      }
+      #content-backer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }</style>
+    <script defer="" src="/animation.e459c265.js"></script>
+  </head>
+  <body>
+    <div id="sectioncontent">
+      <div id="content-backer"></div>
+      <div id="mycontent">
+        <h1>Animation Tests</h1>
+        <p>Arcu dolor convallis mi urna laoreet rutrum netus maximus varius platea, quis interdum sodales sed ex efficitur et commodo sapien libero taciti, fringilla cras senectus sollicitudin nam tincidunt gravida parturient nulla. Eleifend maximus est ultrices non himenaeos cras duis convallis elit, porttitor donec faucibus laoreet dapibus posuere sem auctor taciti pulvinar, integer cursus sociosqu nullam ornare egestas ipsum mus. Dis massa auctor est platea nascetur morbi aliquam potenti, ipsum mus vitae finibus ex non ac.</p>
+      </div>
+      <div id="mycontent2">
+        <h1>Animation Tests</h1>
+        <p>Arcu dolor convallis mi urna laoreet rutrum netus maximus varius platea, quis interdum sodales sed ex efficitur et commodo sapien libero taciti, fringilla cras senectus sollicitudin nam tincidunt gravida parturient nulla. Eleifend maximus est ultrices non himenaeos cras duis convallis elit, porttitor donec faucibus laoreet dapibus posuere sem auctor taciti pulvinar, integer cursus sociosqu nullam ornare egestas ipsum mus. Dis massa auctor est platea nascetur morbi aliquam potenti, ipsum mus vitae finibus ex non ac, nibh at sed facilisi enim integer gravida. Nisl odio faucibus hac phasellus diam sollicitudin placerat auctor mauris eget, fringilla leo lobortis amet suscipit curae lorem ac congue nostra, risus erat suspendisse nisi cubilia vitae dis sagittis sociosqu. Tempus sodales mauris tellus leo litora rhoncus elit viverra maximus, blandit ridiculus enim elementum erat vel ex.</p>
+      </div>
+    </div>
+    <div class="section">
+      <button id="changeContent" class="button">Click Me</button>
+      <p>Lorem mi odio imperdiet vulputate id, convallis tristique vehicula netus augue sodales, turpis sit ligula ornare. Aptent purus potenti ligula penatibus inceptos risus interdum felis, morbi aliquam eros auctor lorem lectus per, non cursus blandit diam ad habitasse lacinia.</p>
+    </div>
+  </body>
+</html>

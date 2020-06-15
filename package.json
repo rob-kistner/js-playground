@@ -1,0 +1,15 @@
+{
+  "name": "js-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rm -rf dist .cache",
+    "dev": "parcel src/*.html"
+  },
+  "dependencies": {
+    "animejs": "^3.2.0",
+    "luxon": "^1.13.2",
+    "parcel-bundler": "^1.12.4"
+  }
+}

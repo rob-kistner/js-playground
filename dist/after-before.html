@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>after, before | JS Playground</title>
+    <!-- css -->
+  <link rel="stylesheet" href="/styles.b61e60ae.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+<script src="/styles.b61e60ae.js"></script></head>
+<body>
+
+  <div class="container">
+
+    <h1>after and before functions</h1>
+    
+    <ul>
+      <li id="one">One</li>
+      <li id="two">Two</li>
+      <li id="three">Three</li>
+    </ul>
+  </div>
+
+  <script src="/domTools.63edce54.js"></script>
+  <script defer="">$('#one').before(makeElement('li', 'inserted before element'));
+$('#three').after(makeElement('li', 'inserted after element'));</script>
+
+</body>
+</html>
